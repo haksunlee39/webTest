@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head>
+     <link rel="stylesheet" href="test.css">
+</head>
+<body>
+     <div id="container">
+          <h1>할 일</h1>
+          <h2>추가</h2>
+          <div class="container-add">
+               <input type="text" id="todo-input" placeholder="현대암호학 공부">
+               <button id="button-add">넣을게</button>
+          </div>
+          <h2>할 일</h2>
+          <div class="container-list" id="todo-list">
+               <div class="todo-item">
+               <span>맥북 사러 가로수길 가기</span>
+               <span class="action action-done">완료</span>
+               <span class="action action-delete">삭제</span>
+               </div>
+          </div>
+          <h2>완료</h2>
+          <div class="container-list" id="done-list">
+               <div class="todo-item todo-done">
+               <span>코드 리뷰하기</span>
+               <span class="action action-delete">삭제</span>
+               </div>
+          </div>
+     </div>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="test.js"></script>
+</body>
